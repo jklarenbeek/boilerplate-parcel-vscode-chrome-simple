@@ -1,0 +1,12 @@
+{
+  "name": "boilerplate-parcel-vscode-chrome-simple",
+  "version": "1.0.0",
+  "description": "Boilerplate for vscode and chrome debugging with parcel (works on ubuntu). Please use npm run install-tools to setup your global environment when not done so.",
+  "main": "./src/index.html",
+  "scripts": {
+    "install-tools": "npm install -g parcel-bundler eslint",
+    "start": "parcel ./src/index.html"
+  },
+  "author": "jklarenbeek@gmail.com",
+  "license": "ISC"
+}
